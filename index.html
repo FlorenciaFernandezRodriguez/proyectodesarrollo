@@ -5,13 +5,14 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./Css/estilos.css" />
+  <link rel="stylesheet" href="./Css/main.css" />
   <link rel="icon" href="./Img/icono.jpg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap" rel="stylesheet" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   <title>Inicio | Isabella Butique</title>
 </head>
 
@@ -52,6 +53,28 @@
       <h1 class="main__h1 col-6">El vestido de tus sueños hecho realidad</h1>
     </section>
     <section class="row">
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="5000">
+            <img src="./Img/img1.jpg" class="d-block w-100" alt="Vstido violeta de nena con tul y detalles de flores">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./Img/img5.jpg" class="d-block w-100" alt="Vestido de dama rosa corte princesa con piedreria en corset a la altura de la cintura">
+          </div>
+          <div class="carousel-item">
+            <img src="./Img/img13.jpg" class="d-block w-100" alt="Vestido azul con accesorios convinando">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!--
       <div class="col-6">
         <img class="main__img" src="./Img/img1.jpg" alt="Vstido violeta de nena con tul y detalles de flores " />
       </div>
@@ -59,19 +82,32 @@
         <img class="main__img" src="./Img/img5.jpg"
           alt="Vestido de dama rosa corte princesa con piedreria en corset a la altura de la cintura " />
       </div>
+      -->
     </section>
   </main>
-  <aside>
-    <p></p>
-  </aside>
+  
   <footer class="footer">
     <iframe class="footer__iframe"
       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3276.4408189043274!2d-55.99151571301584!3d-34.7948499247631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a0278ff9ef6a0d%3A0xcd011eaf67e32254!2sPierbusseti%2C%2015500%20Departamento%20de%20Canelones!5e0!3m2!1ses-419!2suy!4v1687124045580!5m2!1ses-419!2suy"
       width="400" height="300" style="border: 0" allowfullscreen="" loading="lazy"
       referrerpolicy="no-referrer-when-downgrade"></iframe>
-    <iframe class="footer__iframe" src="https://embed.lottiefiles.com/animation/104493"></iframe>
-    <iframe class="footer__iframe" src="https://embed.lottiefiles.com/animation/98799"></iframe>
-    <iframe class="footer__iframe" src="https://embed.lottiefiles.com/animation/105414"></iframe>
+      <ul>
+        <li>
+          <a href="">
+            <i class="bi bi-facebook"> Isabella Boutique</i>
+          </a>
+        </li>
+        <li> 
+          <a href="">
+            <i class="bi bi-whatsapp"> 092224444 </i>
+          </a>
+        </li>
+        <li> 
+          <a href="">
+            <i class="bi bi-instagram"> @IsabellaBoutique</i>
+          </a>
+        </li>
+      </ul>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
