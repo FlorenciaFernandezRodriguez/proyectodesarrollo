@@ -1,3 +1,4 @@
+@import './parciales/footer';
 @import './parciales/main';
 * { 
 	margin: 0;
@@ -37,6 +38,14 @@ body{
 }
 .main__img{
     width: 20vw;
+}
+
+.main__form__div--inputEnviar{
+    background-color: #F2BED1;
+}
+
+.main__form__div--inputReset{
+    background-color: #FDCEDF;
 }
 .main__section__a--img{
     width: 100%;

@@ -3,12 +3,9 @@
         &__div{
             &--img{
                 width: 100%;
-            }
-        }
-        &__article{
-            &__div{
-                &--img{
-                    width:60%;
+            //main__section__div--img
+                & .card_img{
+                    height: 60%;
                 }
             }
         }

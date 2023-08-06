@@ -1,8 +1,22 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__ul {
+  list-style: none;
+}
+.footer__ul__li__a {
+  text-decoration: none;
+  color: black;
+}
+.footer__ul__li__a:hover {
+  text-decoration: underline;
+}
 .main__section__div--img {
   width: 100%;
 }
-.main__section__article__div--img {
-  width: 60%;
+.main__section__div--img .card_img {
+  height: 60%;
 }
 
 * {
@@ -50,6 +64,14 @@ body {
 
 .main__img {
   width: 20vw;
+}
+
+.main__form__div--inputEnviar {
+  background-color: #F2BED1;
+}
+
+.main__form__div--inputReset {
+  background-color: #FDCEDF;
 }
 
 .main__section__a--img {
