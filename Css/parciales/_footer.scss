@@ -1,4 +1,5 @@
 .footer{
+    background-color: #FFACC7;
     display:flex;
     justify-content: space-between;
     &__ul{
@@ -11,10 +12,12 @@
                 &:hover{
                     text-decoration:underline;
                 }
-                &--i{
-
-                }
+                
             }
         }
+    }
+    &__iframe{
+        position:static;
+        right: 0px;
     }
 }

@@ -1,0 +1,23 @@
+.header{
+    background-color: #FFB9B9;
+    &__nav{
+        font-size: 0.5cm;
+        top:10px;
+        display: inline-block;
+        position:absolute;
+        right:6px;
+    }
+    &__ul{
+        &__li{
+            display: inline-block;
+            &--a{
+                text-decoration: none;
+            }
+        }
+    }
+    &__a{
+        &--img{
+            width: 5vw;
+        }
+    }
+}
