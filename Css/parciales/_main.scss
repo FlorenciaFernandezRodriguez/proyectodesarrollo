@@ -1,15 +1,22 @@
 .main{
-    background-color:#FFDDD2;
-
+    background-color:$primario;
+    height: 100%;
+    padding: 0% 0% 10% 0%;
     &__h1{
         display: inline-block;
-        left: 25vw;
-        font-size: 1cm;
+        font-size: 20pt;
     }
     &__img{
         width: 20vw;
     }
+    &__div{
+        max-width: 100%;
+    }
     &__section{
+        max-width: 100%;
+        &--h2{
+            font-size: 18pt;
+        }
         &__div{
             &--img{
                 width: 100%;
@@ -34,10 +41,10 @@
     &__form{
         &__div{
             &--inputEnviar{
-                background-color: #F2BED1;
+                background-color: $enviar;
             }
-            &--inputResets{
-                background-color: #FDCEDF;
+            &--inputReset{
+                background-color: $reset;
             }
         }
     }
